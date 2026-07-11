@@ -17,7 +17,7 @@ function App() {
         <Navbar />
 
         <main className="container mx-auto p-4">
-          <Routes>
+          <Routes> 
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
 
